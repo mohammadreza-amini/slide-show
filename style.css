@@ -1,0 +1,102 @@
+body{
+    background-color: tan;
+}
+
+.img-container{
+    position: relative;
+}
+
+.slide{
+    display: none;
+}
+
+.prev , .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 15px;
+    color: snow;
+    font-size: 28px;
+    font-weight: bolder;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    transition: .6s ease-in-out;
+    -webkit-transition: .6s ease-in-out;
+    -moz-transition: .6s ease-in-out;
+    -ms-transition: .6s ease-in-out;
+    -o-transition: .6s ease-in-out;
+}
+.next{
+    right: 0;
+}
+
+.prev:hover , .next:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text{
+    color: seashell;
+    font-size: 14px;
+    padding: 10px 14px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+}
+
+.number{
+    color: seashell;
+    font-size: 14px;
+    font-weight: lighter;
+    position: absolute;
+    padding: 8px 12px;
+}
+
+.dot-container{
+    width: 100%;
+    text-align: center;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #fafafa;
+    display: inline-block;
+    transition: .6s ease-in-out;
+    -webkit-transition: .6s ease-in-out;
+    -moz-transition: .6s ease-in-out;
+    -ms-transition: .6s ease-in-out;
+    -o-transition: .6s ease-in-out;
+}
+
+.dot:hover{
+    cursor: pointer;
+    background-color: slategray;
+}
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.2s;
+    animation-name: fade;
+    animation-duration: 1.2s;
+}
+
+@-webkit-keyframes fade{
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
+
+@keyframes fade{
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
