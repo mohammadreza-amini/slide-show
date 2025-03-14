@@ -41,7 +41,7 @@ body{
 
 .text{
     color: seashell;
-    font-size: 14px;
+    font-size: 18px;
     padding: 10px 14px;
     width: 100%;
     position: absolute;
@@ -51,7 +51,7 @@ body{
 
 .number{
     color: seashell;
-    font-size: 14px;
+    font-size: 19px;
     font-weight: lighter;
     position: absolute;
     padding: 8px 12px;
