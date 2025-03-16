@@ -79,7 +79,7 @@ body{
     -o-transition: .6s ease-in-out;
 }
 
-.dot:hover{
+.dot:hover , .active{
     cursor: pointer;
     background-color: slategray;
 }
