@@ -14,17 +14,19 @@ body{
     cursor: pointer;
     position: absolute;
     top: 50%;
-    padding: 15px;
+    padding: 18px;
     color: snow;
-    font-size: 28px;
+    font-size: 15px;
     font-weight: bolder;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    width: 15px;
-    height: 15px;
+    width: 45px;
+    height: 45px;
+    line-height: 50px;
+    text-align: center;
     transition: .6s ease-in-out;
     -webkit-transition: .6s ease-in-out;
     -moz-transition: .6s ease-in-out;
@@ -36,7 +38,7 @@ body{
 }
 
 .prev:hover , .next:hover{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(3, 3, 3, 0.7);
 }
 
 .text{
